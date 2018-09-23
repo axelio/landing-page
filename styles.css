@@ -448,6 +448,13 @@ footer ul {
     }
 }
 
+@media (max-height: 450px){
+    .gallery-header {
+        background: url(img/skrzyczne/big/header.jpg) no-repeat 100% 50%;
+        height: 300px;
+    }
+}
+
 .gallery-header .homelink {
     color: #fff;
     position: absolute;
