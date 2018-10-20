@@ -45,16 +45,16 @@
                 się do grona polecających podjazd na Skrzyczne i zachęcam do spróbowania powyżej opisanej trasy.
             </p>
             <div class="photos">
-                <a class="thumbnail" href="../img/skrzyczne/big/mtb1.jpg" data-lightbox="mtb">
+                <a class="thumbnail" target="_blank" href="../img/skrzyczne/big/mtb1.jpg">
                     <img src="../img/skrzyczne/thumbnails/mtb1.jpg" alt="">
                 </a>
-                <a class="thumbnail" href="../img/skrzyczne/big/mtb4.jpg" data-lightbox="mtb">
+                <a class="thumbnail" target="_blank" href="../img/skrzyczne/big/mtb4.jpg">
                     <img src="../img/skrzyczne/thumbnails/mtb4.jpg" alt="">
                 </a>
-                <a class="thumbnail" href="../img/skrzyczne/big/mtb3.jpg" data-lightbox="mtb">
+                <a class="thumbnail" target="_blank" href="../img/skrzyczne/big/mtb3.jpg">
                     <img src="../img/skrzyczne/thumbnails/mtb3.jpg" alt="">
                 </a>
-                <a class="thumbnail" href="../img/skrzyczne/big/mtb2.jpg" data-lightbox="mtb">
+                <a class="thumbnail" target="_blank" href="../img/skrzyczne/big/mtb2.jpg">
                     <img src="../img/skrzyczne/thumbnails/mtb2.jpg" alt="">
                 </a>
             </div>
@@ -77,18 +77,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../lightbox2/js/lightbox.min.js"></script>
-    <script>
-        const innerHeight = window.innerHeight;
-        const isPhoneAndRotated = window.innerHeight <= 450;
-
-        lightbox.option({
-            'resizeDuration': 50,
-            'wrapAround': true,
-            'maxHeight': isPhoneAndRotated ? innerHeight - 10 : innerHeight - 100,
-            'alwaysShowNavOnTouchDevices': true,
-            'positionFromTop': isPhoneAndRotated ? 0 : 50
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
